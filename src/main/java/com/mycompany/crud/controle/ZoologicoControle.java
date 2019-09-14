@@ -1,4 +1,4 @@
-package com.mycompany.crud_paulo.controle;
+package com.mycompany.crud.controle;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,8 +7,8 @@ import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
 import javax.inject.Inject;
 import javax.inject.Named;
-import com.mycompany.crud_paulo.modelo.Zoologico;
-import com.mycompany.crud_paulo.repositorio.ZoologicoRepositorio;
+import com.mycompany.crud.modelo.Zoologico;
+import com.mycompany.crud.repositorio.ZoologicoRepositorio;
 
 /**
  *

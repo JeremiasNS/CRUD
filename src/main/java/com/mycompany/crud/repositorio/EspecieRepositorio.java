@@ -1,4 +1,4 @@
-package com.mycompany.crud_paulo.repositorio;
+package com.mycompany.crud.repositorio;
 
 import java.util.List;
 import javax.annotation.Resource;
@@ -7,7 +7,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.PersistenceUnit;
 import javax.persistence.Query;
 import javax.transaction.UserTransaction;
-import com.mycompany.crud_paulo.modelo.Especie;
+import com.mycompany.crud.modelo.Especie;
 
 /**
  * @author jeremias

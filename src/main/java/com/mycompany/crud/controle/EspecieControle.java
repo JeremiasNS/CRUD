@@ -1,12 +1,12 @@
-package com.mycompany.crud_paulo.controle;
+package com.mycompany.crud.controle;
 
 import javax.enterprise.context.RequestScoped;
 import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
 import javax.inject.Inject;
 import javax.inject.Named;
-import com.mycompany.crud_paulo.modelo.Especie;
-import com.mycompany.crud_paulo.repositorio.EspecieRepositorio;
+import com.mycompany.crud.modelo.Especie;
+import com.mycompany.crud.repositorio.EspecieRepositorio;
 
 /**
  * @author jeremias

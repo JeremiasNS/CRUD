@@ -1,11 +1,11 @@
-package com.mycompany.crud_paulo.repositorio;
+package com.mycompany.crud.repositorio;
 
 import javax.annotation.Resource;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.PersistenceUnit;
 import javax.transaction.UserTransaction;
-import com.mycompany.crud_paulo.modelo.Zoologico;
+import com.mycompany.crud.modelo.Zoologico;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.persistence.RollbackException;

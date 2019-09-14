@@ -1,4 +1,4 @@
-package com.mycompany.crud_paulo.modelo;
+package com.mycompany.crud.modelo;
 
 import java.io.Serializable;
 import java.util.Objects;

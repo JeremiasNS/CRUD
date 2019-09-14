@@ -1,19 +1,19 @@
-package com.mycompany.crud_paulo.converter;
+package com.mycompany.crud.converter;
 
-import com.mycompany.crud_paulo.controle.ZoologicoControle;
+import com.mycompany.crud.controle.AnimalControle;
 import javax.faces.component.UIComponent;
 import javax.faces.context.FacesContext;
 import javax.faces.convert.Converter;
 import javax.faces.convert.FacesConverter;
-import com.mycompany.crud_paulo.modelo.Zoologico;
+import com.mycompany.crud.modelo.Animal;
 
 /**
- *implements Converter
+ *
  * @author Arnaldo Junior
  */
-@FacesConverter(forClass = Zoologico.class)
-public class ZoologicoConverter {
-/*
+@FacesConverter(forClass = Animal.class)
+public class AnimalConverter implements Converter{
+
     @Override
     public Object getAsObject(FacesContext contexto, UIComponent component, String string) {
         if (string == null || string.length() == 0) {
@@ -21,9 +21,9 @@ public class ZoologicoConverter {
         }
         Long id = new Long(string);
         // Busca um objeto através de Linguagem de Expressão.
-        ZoologicoControle controle = (ZoologicoControle) contexto.getApplication()
-                .getELResolver().getValue(contexto.getELContext(), null, "zoologicoControle");
-        return controle.findById(id);
+        AnimalControle controle = (AnimalControle) contexto.getApplication()
+                .getELResolver().getValue(contexto.getELContext(), null, "animalControle");
+        return controle.buscarPorId(id);
     }
 
     @Override
@@ -31,15 +31,15 @@ public class ZoologicoConverter {
         if (objeto == null) {
             return null;
         }
-        if (objeto instanceof Zoologico) {
-            Zoologico zoo = (Zoologico) objeto;
+        if (objeto instanceof Animal) {
+            Animal animal = (Animal) objeto;
             // Se a condição for verdadeira, retorna uma string vazia, senão retorna o id.
-            return zoo.getId() == null ? "" : zoo.getId().toString();
+            return animal.getId() == null ? "" : animal.getId().toString();
         } else {
-            throw new IllegalArgumentException("Objeto "+ objeto +" é do tipo "+ objeto.getClass().getName() +"; tipo esperado: Zoologico");
+            throw new IllegalArgumentException("Objeto "+ objeto +" é do tipo "+ objeto.getClass().getName() +"; tipo esperado: Animal");
         }
     }
- */   
+    
 }
 
 /*

@@ -1,4 +1,4 @@
-package com.mycompany.crud_paulo.util;
+package com.mycompany.crud.util;
  
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

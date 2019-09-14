@@ -1,4 +1,4 @@
-package com.mycompany.crud_paulo.repositorio;
+package com.mycompany.crud.repositorio;
 
 import java.util.List;
 import javax.annotation.Resource;
@@ -8,8 +8,8 @@ import javax.persistence.EntityNotFoundException;
 import javax.persistence.PersistenceUnit;
 import javax.persistence.TypedQuery;
 import javax.transaction.UserTransaction;
-import com.mycompany.crud_paulo.modelo.Animal;
-import com.mycompany.crud_paulo.modelo.Zoologico;
+import com.mycompany.crud.modelo.Animal;
+import com.mycompany.crud.modelo.Zoologico;
 
 /**
  *

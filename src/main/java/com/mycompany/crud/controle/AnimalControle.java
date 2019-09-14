@@ -1,16 +1,16 @@
-package com.mycompany.crud_paulo.controle;
+package com.mycompany.crud.controle;
 
 import java.util.ArrayList;
 import java.util.List;
 import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
 import javax.inject.Inject;
-import com.mycompany.crud_paulo.modelo.Animal;
-import com.mycompany.crud_paulo.modelo.Especie;
-import com.mycompany.crud_paulo.modelo.Zoologico;
-import com.mycompany.crud_paulo.repositorio.AnimalRepositorio;
-import com.mycompany.crud_paulo.repositorio.EspecieRepositorio;
-import com.mycompany.crud_paulo.repositorio.ZoologicoRepositorio;
+import com.mycompany.crud.modelo.Animal;
+import com.mycompany.crud.modelo.Especie;
+import com.mycompany.crud.modelo.Zoologico;
+import com.mycompany.crud.repositorio.AnimalRepositorio;
+import com.mycompany.crud.repositorio.EspecieRepositorio;
+import com.mycompany.crud.repositorio.ZoologicoRepositorio;
 import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.RequestScoped;
 import javax.inject.Named;

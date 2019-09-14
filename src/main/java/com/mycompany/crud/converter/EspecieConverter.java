@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.crud_paulo.converter;
+package com.mycompany.crud.converter;
 
-import com.mycompany.crud_paulo.controle.EspecieControle;
+import com.mycompany.crud.controle.EspecieControle;
 import javax.faces.component.UIComponent;
 import javax.faces.context.FacesContext;
 import javax.faces.convert.Converter;
 import javax.faces.convert.FacesConverter;
-import com.mycompany.crud_paulo.modelo.Especie;
+import com.mycompany.crud.modelo.Especie;
 
 /**
  *
